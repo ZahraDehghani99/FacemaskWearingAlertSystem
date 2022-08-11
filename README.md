@@ -17,4 +17,10 @@ After creating a conda environment, you should activate it and then run the foll
 pip install -r requirements.txt
 ```
 ## How it works?
-After installing requirements, you
+After installing requirements, you should run `detect_mask_image.py` as follows:
+```
+python detect_mask_image.py --image examples/1.png
+```
+**Note** : you should change address of `face_detector`, `mask_detector` base on your local address.
+
+After run this command if the system predicts `without_mask`, the `FaceMask_detection_alert` will be broadcast.
