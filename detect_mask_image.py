@@ -12,7 +12,7 @@ import os
 
 MASK_DETECTOR_PATH = "/mnt/DAE855F7E855D1FD/github_msc/FacemaskWearingAlertSystem/mask_detector.h5"
 mixer.init()
-sound = mixer.Sound('/mnt/DAE855F7E855D1FD/github_msc/FacemaskWearingAlertSystem/FaceMask_detection_alarm')
+sound = mixer.Sound('/mnt/DAE855F7E855D1FD/github_msc/FacemaskWearingAlertSystem/FaceMask_detection_alert')
 
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
