@@ -9,7 +9,7 @@ You should first clone this project:
  ```
  Then you should create a conda environmet as follows:
 ```
-conda create -n facemask_classification 
+conda create -n facemask_classification python==3.7 pip==20.2.4
 ```
 After creating a conda environment, you should activate it and then run the following code to install requirements.
 
