@@ -24,3 +24,5 @@ python detect_mask_image.py --image examples/1.png
 **Note** : you should change address of `face_detector`, `mask_detector` base on your local address.
 
 After run this command if the system predicts `without_mask`, the `FaceMask_detection_alert` will be broadcast.
+
+**Note** : In the `MTCC_face_detector` I tried face detection using MTCNN.
