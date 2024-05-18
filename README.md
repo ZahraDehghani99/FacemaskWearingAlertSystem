@@ -1,5 +1,7 @@
 # FacemaskWearingAlertSystem
-Implementing the paper "Facemask Wearing Alert System Based on Simple Architecture With Low-Computing Devices"
+Implementing the paper "Facemask Wearing Alert System Based on Simple Architecture With Low-Computing Devices" using a two-step paradigm, detected faces with Single Shot Detector, and classified into two classes (with/without mask) using a Keras convolutional neural network.
+
+
 
 ## Install requirements
 You should first clone this project:
